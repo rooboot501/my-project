@@ -36,7 +36,7 @@ Content-Disposition: form-data; name="test"
 -----------------------------WebKitFormBoundaryPwieJwmMYPkcCnF1--
 ```
 
-![1760594938912](images/jiousi/1760594938912.png)
+![1760594938912](1760594938912.png)
 
 Access the uploaded file
 
@@ -54,7 +54,7 @@ Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/w
 Accept-Encoding: gzip, deflate
 ```
 
-![1760595100481](images/jiousi/1760595100481.png)
+![1760595100481](1760595100481.png)
 
 Successfully uploaded and accessed
 
@@ -62,8 +62,9 @@ Successfully uploaded and accessed
 
 In the servlet of the Office Server, there is a SAVEFILE, and the save2DB method is called in the SAVEFILE option
 
-![1760595160239](images/jiousi/1760595160239.png)
+![1760595160239](1760595160239.png)
 
 When isDoc is equal to fasle, the faveFile method of the Jinger component is called to write the file, and the filetype is controllable, causing arbitrary file upload vulnerabilities
 
-![1760595183727](images/jiousi/1760595183727.png)
+![1760595183727](1760595183727.png)
+
