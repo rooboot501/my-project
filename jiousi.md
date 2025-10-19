@@ -1,5 +1,9 @@
 # Jiusi OA has an arbitrary file upload vulnerability
 
+Product Source:http://www.jiusi.net/
+body="/jsoa/login.jsp"
+![1760595183728](1760595183728.png)
+
 ##### Vulnerability reproduction:
 
 ```
@@ -67,4 +71,5 @@ In the servlet of the Office Server, there is a SAVEFILE, and the save2DB method
 When isDoc is equal to fasle, the faveFile method of the Jinger component is called to write the file, and the filetype is controllable, causing arbitrary file upload vulnerabilities
 
 ![1760595183727](1760595183727.png)
+
 
